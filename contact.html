@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kristian Malić</title>
+
+    <!-- Google Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style Sheets -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+    <!-- Scripts -->
+    
+  </head>
+  <body>
+    <section id="title">
+      <!-- Nav bar-->
+      <div class="main-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Kristian</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-me.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="language/kontakt.html">HR</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="main-title">
+        <h1>
+          If you have any questions, offers or you just want to talk to me,
+          please contact me.
+        </h1>
+      </div>
+    </section>
+
+    <!-- Contact Area -->
+
+    <section id="contact-area">
+      <main class="contact-box">
+        <h3>Send E-mail</h3>
+
+        <form class="contact-form" action="contact-form.php" method="post">
+          <input
+            class="input-box"
+            type="text"
+            name="name"
+            placeholder="Full name"
+          />
+          <input
+            class="input-box"
+            type="email"
+            name="mail"
+            placeholder="Your e-mail"
+          />
+          <input
+            class="input-box"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+          />
+          <textarea
+            class="input-box"
+            name="message"
+            placeholder="Message"
+          ></textarea
+          ><br />
+          <button
+            class="btn btn-lg btn-outline-danger btn-block"
+            type="submit"
+            name="Submit"
+          >
+            Send Mail
+          </button>
+        </form>
+      </main>
+    </section>
+
+    <!-- Footer Section -->
+
+    <section id="footer">
+      <div class="container-fluid">
+        <a href="https://www.instagram.com/kristian.malic99/"
+          ><i id="social-icon" class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/kristian.malic/"
+          ><i id="social-icon" class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://github.com/WizCrocodile"
+          ><i id="social-icon" class="fab fa-git"></i
+        ></a>
+        <p>@ Kristian Malić 2020.</p>
+      </div>
+    </section>
+  </body>
+</html>

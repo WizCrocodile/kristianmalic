@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+/* White-Sections */
+
+.white-section p {
+  color: gray;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15% 7%;
+}
+
+/*  Title Section */
+
+#title {
+  background-color: #dd2c00;
+  color: #fff;
+  padding: 3% 15% 7%;
+}
+
+.main-title {
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.profile-img {
+  width: 280px;
+  height: 373px;
+  float: right;
+  border-radius: 100%;
+}
+
+/* Navbar */
+
+.main-nav {
+  padding: 0 0 100px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.title-text {
+  text-align: left;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+nav .navbar-nav li a:hover {
+  color: rgb(211, 159, 159) !important;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #fff;
+}
+
+.feature-box {
+  padding: 2%;
+  line-height: 2;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#features-icon {
+  font-size: 5rem;
+  padding-bottom: 30px;
+  color: #f37121;
+}
+
+#features-icon:hover {
+  color: #dd2c00;
+}
+
+/* Carousel Section */
+
+#carousel {
+  background-color: #dd2c00;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.carousel-item {
+  padding: 3% 15% 7%;
+}
+
+.carousel-text {
+  font-size: 2rem;
+}
+
+/* Languages Section */
+
+#languages {
+  text-align: center;
+}
+
+.language-box {
+  padding: 2% 5%;
+}
+
+.language-box img {
+  padding: 30px;
+}
+
+.languages-title {
+  padding-bottom: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(109, 106, 106);
+}
+
+#social-icon {
+  font-size: 1.5rem;
+  color: black;
+  margin: 50px 15px 50px;
+}
+
+/* Buttons */
+
+.btn {
+  color: #fff;
+  font-weight: bold;
+  margin: 50px 50px 50px 0;
+}
+
+.btn:hover {
+  color: #dd2c00;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+  .profile-img {
+    position: relative;
+    margin: auto;
+  }
+}

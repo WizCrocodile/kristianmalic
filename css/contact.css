@@ -1,0 +1,114 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f37121;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+/* White Section */
+
+.white-section p {
+  color: gray;
+}
+
+/*  Title Section */
+
+#title {
+  background-color: #dd2c00;
+  color: #fff;
+  padding: 3% 15% 7%;
+}
+
+.main-title {
+  font-family: "Roboto Mono", monospace;
+
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Navbar */
+
+.main-nav {
+  padding: 0 0 150px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.title-text {
+  text-align: left;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+nav .navbar-nav li a:hover {
+  color: rgb(211, 159, 159) !important;
+}
+
+/* Contact Area */
+
+#contact-area {
+  padding: 3% 15% 7%;
+}
+
+.contact-box {
+  width: 30%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+}
+
+.contact-box h3 {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+}
+
+.input-box {
+  margin: 20px 0;
+}
+
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15% 7%;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(109, 106, 106);
+}
+
+#social-icon {
+  font-size: 1.5rem;
+  color: black;
+  margin: 50px 15px 50px;
+}
+
+/* Contact Me Button */
+
+.btn {
+  font-weight: bold;
+}
