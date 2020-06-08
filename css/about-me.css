@@ -27,7 +27,7 @@ p {
 
 .main-title {
   font-family: "Roboto Mono", monospace;
-
+  line-height: 2;
   width: 50%;
   margin: auto;
   text-align: center;
@@ -101,4 +101,63 @@ nav .navbar-nav li a:hover {
   font-size: 1.5rem;
   color: black;
   margin: 50px 15px 50px;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+
+  .profile-img {
+    position: relative;
+    margin: auto;
+  }
+
+  .main-title {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  #slide-icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .carousel-text {
+    font-size: 1rem;
+  }
+
+  #slide-icon {
+    padding-bottom: 10px;
+  }
+
+  .language-box img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .title-text {
+    position: relative;
+    bottom: 50px;
+  }
+
+  #info-icon {
+    font-size: 3rem;
+  }
 }
