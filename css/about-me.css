@@ -82,11 +82,6 @@ nav .navbar-nav li a:hover {
   padding: 50px;
 }
 
-/* Languages Section */
-
-.languages-title {
-  padding-bottom: 20px;
-}
 
 /* Footer Section */
 
@@ -110,10 +105,6 @@ nav .navbar-nav li a:hover {
     margin: 0;
   }
 
-  .profile-img {
-    position: relative;
-    margin: auto;
-  }
 
   .main-title {
     width: 100%;
@@ -134,10 +125,7 @@ nav .navbar-nav li a:hover {
     font-size: 1rem;
   }
 
-  #slide-icon {
-    height: 100px;
-    width: 100px;
-  }
+
 
   .carousel-text {
     font-size: 1rem;
@@ -147,10 +135,7 @@ nav .navbar-nav li a:hover {
     padding-bottom: 10px;
   }
 
-  .language-box img {
-    height: 150px;
-    width: 150px;
-  }
+
 
   .title-text {
     position: relative;
